@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>to-do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+      <div class="to-do-app">
+      <h2>to-do list<img src="data:image/jpeg;base64,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" alt="">
+      </h2>
+      <div class="row">
+            <input type="text" id="input-box" placeholder="Add yor work here!">
+            <button onclick="addTask()">ADD</button>
+        </div>
+        <ul id="list-container">
+             <!-- <li class="checked">Task1</li> 
+            <li>Task1 <span></span></li>
+            <li>Task1</li>
+            <li>Task1</li>
+            <li>Task1</li>  -->
+        </ul>
+    </div>
+    
+    </div>
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
